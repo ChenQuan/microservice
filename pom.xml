@@ -10,12 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <modules>
-        <module>eureka</module>
-        <module>service-client</module>
-        <module>service</module>
-        <module>api</module>
-        <module>vo</module>
-        <module>gateway</module>
+        <module>eureka</module> <!-- 注册中心-->
+        <module>service-client</module> <!-- 服务消费者-->
+        <module>service</module> <!-- 服务提供者-->
+        <module>api</module> <!-- API -->
+        <module>gateway</module> <!-- API总网关-->
     </modules>
     <groupId>club.osai</groupId>
     <artifactId>micro-service</artifactId>
