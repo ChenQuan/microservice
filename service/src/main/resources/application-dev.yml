@@ -1,0 +1,10 @@
+# 开发时使用
+
+server:
+  port: 7080
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8080/eureka/

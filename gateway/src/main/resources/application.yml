@@ -1,0 +1,8 @@
+# API 网关
+
+spring:
+  profiles:
+    active: dev
+ribbon:
+  eureka:
+    enabled: true
