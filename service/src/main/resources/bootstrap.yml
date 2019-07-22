@@ -2,3 +2,5 @@
 spring:
   application:
     name: service
+mybatis:
+  config-location:
